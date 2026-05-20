@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "leaflet.bigimage": "^1.0.1"
+  }
+}

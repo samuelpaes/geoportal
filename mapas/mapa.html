@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa - reprojetado</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link href="../src/css/css2.css" rel="stylesheet">
+  <!-- <link href="../src/css/all.min.css" rel="stylesheet"> -->
+  <link href="../src/css/styles.min.css" rel="stylesheet">
+  <link href="../src/css/swiper-bundle.min.css" rel="stylesheet">
+
+
+
+
+  <script src="../src/js/mascara-inscricao.js"></script>
+
+  
+</head>
+
+<body>
+
+  <div style="display: flex;">
+    <!-- <button type="button" id="download" class="btn btn-primary"  >Pesquisar</button> -->
+    <div class="search" style="right:0%; top:10px ; z-index: 1; position:absolute">
+      <select class="select__input" name="" id="filtroMapa"  onclick="enviarPara()">
+      
+
+      </select>
+      <input type="search"  class="search__input" style="position: absolute; right:5% ;"  id="search" placeholder="Buscar">
+    
+      <button type="submit" id='pesquisar' class="search__submit"><i class="fas fa-search search__icon --orange"></i></button>
+     
+                       
+    
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="../src/js/bundle.js"></script>
+  <script src="../src/js/funcoes.mapa.js"></script>
+
+  
+  
+
+</body>
+
+</html>
