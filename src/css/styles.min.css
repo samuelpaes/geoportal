@@ -73,6 +73,38 @@ section {
     z-index: 0;
 }
 
+@keyframes pulse {
+    0% {
+        /* transform: scale(1); */
+        fill: red;
+        fill-opacity: 1;
+    }
+
+    50% {
+        /* transform: scale(1.1); */
+        fill: rgb(255, 255, 255);
+        fill-opacity: 1;
+
+    }
+
+    100% {
+        /* transform: scale(1); */
+         fill: rgb(255, 0, 0);
+         fill-opacity: 1;
+    }
+}
+
+.pesquisado {
+    transition: all 0.3s ease;
+    background: red;
+    animation: pulse 3s infinite;
+
+}
+
+
+
+
+
 body {
     background-color: #fff;
     color: #212529;
@@ -2972,25 +3004,22 @@ input[type=submit].btn-block {
     /* border: 1px solid #ced4da; */
     border-radius: 10px;
     color: #495057;
-    display: flex;
     font-size: 1em;
     font-weight: 600;
     height: calc(1.3em + .75rem + 5px);
     line-height: 1.5;
     /*padding: .375rem 1.05rem .375rem 1.05rem;*/
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 125%;
-    position: relative;
+    width: 256px;
+    position: absolute;
     text-align: center;
     top:0px;
     left:-450px;
     z-index: 3;
-    right: 565%;
+    /* right: 565%; */
     color: #000;
     
 }
-
-
 
 .search__input {
 
@@ -2999,14 +3028,13 @@ input[type=submit].btn-block {
     /* border: 1px solid #ced4da; */
     border-radius: 10px;
     color: #495057;
-    display: relative;
     top:0px;
     font-weight: 400;
     height: calc(1.3em + .75rem + 5px);
     line-height: 1.5;
     /* padding: .375rem .75rem; */
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 200%;
+    width: 220px;
     z-index:0
 }
 
