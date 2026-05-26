@@ -3010,11 +3010,11 @@ input[type=submit].btn-block {
     line-height: 1.5;
     /*padding: .375rem 1.05rem .375rem 1.05rem;*/
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 256px;
+    width: 180px;
     position: absolute;
     text-align: center;
     top:0px;
-    left:-450px;
+    left:-500px;
     z-index: 3;
     /* right: 565%; */
     color: #000;
@@ -3034,7 +3034,7 @@ input[type=submit].btn-block {
     line-height: 1.5;
     /* padding: .375rem .75rem; */
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    width: 220px;
+    width: 346px;
     z-index:0
 }
 
