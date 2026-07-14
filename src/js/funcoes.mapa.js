@@ -46,7 +46,7 @@ var opcoes = null;
 // função para atribuir as opções pro select 
 function preencherSelect(campos) {
 
-  opcoes += "<option value=''></option>"
+  opcoes += "<option value=''>Escolha um Filtro</option>"
   campos.forEach(function (item) {
     opcoes += "<option value='" + item + "'>" + item + "</option>"
 

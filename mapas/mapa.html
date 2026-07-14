@@ -29,7 +29,7 @@
       
 
       </select>
-      <input type="search"  class="search__input" style="position: absolute; right:5% ;"  id="search" placeholder="Buscar">
+      <input type="search"  class="search__input" style="position: absolute; right:5% ;"  id="search" placeholder="Buscar" onkeydown="if (event.key === 'Enter') document.getElementById('pesquisar').click()">
     
       <button type="submit" id='pesquisar' class="search__submit"><i class="fas fa-search search__icon --orange"></i></button>
      
