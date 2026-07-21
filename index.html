@@ -50,12 +50,12 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-   
+
     <link rel="stylesheet" href="./src/css/all.min.css" as="style"
         onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
-    
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" > -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" > -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -64,16 +64,18 @@
         crossorigin="anonymous"></script>
 
     <script src="./src/js/downloadJson.js"></script>
-        
-  
+
+
     <link rel="stylesheet" href="./src/css/styles.min.css" as="style"
         onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
     <noscript>
         <link rel="stylesheet" href="https://www.bertioga.sp.gov.br/css/styles.min.css">
     </noscript>
-    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.css">
 
-    
+
+
+
 
 </head>
 
@@ -90,8 +92,8 @@
                 <div class="header-top__column">
                     <a href="https://www.bertioga.sp.gov.br" title="Ir para página inicial" class="logo">
                         <img src="./src/imagens/logo-prefeitura-de-bertioga-black.png"
-                            alt="Prefeitura Municipal de Bertioga"
-                            title="Prefeitura Municipal de Bertioga" class="logo__img">
+                            alt="Prefeitura Municipal de Bertioga" title="Prefeitura Municipal de Bertioga"
+                            class="logo__img">
                     </a>
                 </div>
 
@@ -140,19 +142,20 @@
             <div class="sidebar__content">
                 <ul class="navbar-nav main-menu__nav">
 
+                    <li class="nav-item main-menu__item  ">
+                        <a href="https://sapl.bertioga.sp.leg.br/media/sapl/public/normajuridica/2022/6336/dec-4063-2022.pdf"
+                            target="" title="Perguntas Frequentes | Prefeitura Municipal de Bertioga">
+                            Decretos de regulamentação
+                        </a>
+                    </li>
 
                     <li class="nav-item main-menu__item  ">
-                        <a href="https://www.bertioga.sp.gov.br/#faq"
-                            title="Perguntas Frequentes | Prefeitura Municipal de Bertioga">
-                            Perguntas Frequentes
-                        </a>
-                    </li>
-                    <li class="nav-item main-menu__item  ">
-                        <a href="https://transparencia-bertioga.smarapd.com.br/#/fixo/financas/leialdirblanc"
+                        <a href="https://www.bertioga.sp.gov.br/cidadao" target=""
                             title="Política Nacional Aldir Blanc | Prefeitura Municipal de Bertioga">
-                            Política Nacional Aldir Blanc
+                            Outros Mapas
                         </a>
                     </li>
+
                 </ul>
 
                 <a data-toggle="modal" href="https://www.bertioga.sp.gov.br/#contatoModal"
@@ -320,29 +323,288 @@
     <main class="page" id="home">
         <h1 class="sr-only">Prefeitura Municipal de Bertioga</h1>
         <section class="banners">
-            <div class="container" >
+            <div class="container">
                 <div class="swiper banners__slider swiper-initialized swiper-horizontal swiper-backface-hidden">
                     <div class="swiper-slide banners__slide swiper-slide-active swiper-slide-next"
                         id="swiper-wrapper-5f610153cf10961c0e" aria-live="off" role="group" aria-label="1 / 1"
-                        data-swiper-slide-index="0" >
+                        data-swiper-slide-index="0">
                         <div class="banners__slide-thumb" style="background-color: white;">
-                            <img src="./src/imagens/logotipo.png" style="max-width:90%; height: auto;" title="1" >
+                            <img src="./src/imagens/logotipo.png" style="max-width:90%; height: auto;" title="1">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h2 class="page__subtitle --center">Consulte Mapas Com Dados Geoespacializados</h2>
+            </div>
+        </section>
+
+
+
+
+        <section class="urbanismo">
+            <div class="container">
+                <h2 class="page__subtitle --center --white">Planejamento Urbano</h2>
+                <br>
+                <div class="swiper urbanismo__slider swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <div class="swiper-wrapper" id="swiper-wrapper-b765697d843abacc" aria-live="off">
+
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="1 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="zoneamento" data-nomeTema="Zoneamento, Uso e Ocupação do Solo"
+                                data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/zoneamento.png" alt="" title="42668269144_74b7a7875f_o"
+                                        alt="Bertioga convida restaurantes e produtores locais para seleção da Rota Gastronômica do Estado"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Zoneamento, Uso e Ocupação de Solo</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="2 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal" data-mapa="lotes"
+                                data-nomeTema="Lotes" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/lotes.png" alt="" title="DCIM101MEDIADJI_0102.JPG"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Cadastro de Lotes</h3>
+                                </div>
+                            </div>
                         </div>
 
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="3 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="abairramento" data-nomeTema="Abairramento" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/abairramento.png" alt="" title="DCIM100MEDIADJI_0023.JPG"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Abairramento</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="4 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="eixo_logradouro" data-nomeTema="Eixo de Logradouro"
+                                data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/logradouros.png" alt="" title="31921269747_62bee7e879_o"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Logradouros</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="5 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="macrozonas" data-nomeTema="Macrozonas" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/macrozonas.png" alt="" title="42668269144_74b7a7875f_o"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Macrozonas</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="6 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="areaurbana" data-nomeTema="Área Urbana" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/areaurbana.png" alt="" title="DCIM101MEDIADJI_0102.JPG"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Área Urbana</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="7 / 7"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal" data-mapa="zeis"
+                                data-nomeTema="Zeis" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/zeis.png" alt="" title="31921269747_62bee7e879_o"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Zeis</h3>
+                                </div>
+                            </div>
+                        </div>
 
-                    </div>
-                    <div
-                        class="swiper-pagination banners__slider-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-lock">
-                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                            role="button" aria-label="Go to slide 1" aria-current="true"></span>
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
+                <div class="swiper-button-next slider__arrow --white --urbanismo --next" tabindex="0" role="button"
+                    aria-label="Next slide">
+                    <svg viewBox="65 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M84.707 8.707a1 1 0 000-1.414L78.343.929a1 1 0 10-1.414 1.414L82.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h84V7H0v2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="swiper-button-prev slider__arrow --white --urbanismo --prev" tabindex="0" role="button"
+                    aria-label="Previous slide">
+                    <svg viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M.293 7.293a1 1 0 000 1.414l6.364 6.364a1 1 0 001.414-1.414L2.414 8l5.657-5.657A1 1 0 006.657.93L.293 7.293zM85 7H1v2h84V7z">
+                        </path>
+                    </svg>
+                </div>
             </div>
         </section>
-        <section class="roteiros">
+
+        <section class="ambiental">
+            <div class="container">
+                <h2 class="page__subtitle --center --white">Meio Ambiente</h2>
+                <br>
+                <div class="swiper ambiental__slider swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <div class="swiper-wrapper" id="swiper-wrapper-b765697d843abacc" aria-live="off" >
+
+
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="1 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="Hidrografia" data-nomeTema="Hidrografia" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Hidrografia</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="2 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="Perb" data-nomeTema="Perb" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG"
+                                        class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Perb</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="3 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="planoManejoPerb" data-nomeTema="planoManejoPerb" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Plano de Manejo - PERB</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="4 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="zoneamentoPerbZonas" data-nomeTema="zoneamentoPerbZonas" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Zoneamento PERB - Zonas</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="5 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="pesm" data-nomeTema="pesm" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">PESM</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="6 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="rppn" data-nomeTema="rppn" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Reserva Particular do Patrimônio Natural - RPPN</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="7 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="areaProtecaoAmbientalMarinha" data-nomeTema="areaProtecaoAmbientalMarinha" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Área de Proteção Ambiental da Marinha - Zoneamento Polígono</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news swiper-slide --white swiper-slide-active" role="group" aria-label="8 / 8"
+                            data-swiper-slide-index="0" style="width: 396.667px; margin-right: 20px;">
+                            <div class="news__wrapper" class="btn btn-primary" data-bs-toggle="modal"
+                                data-mapa="limiteAreaProtecaoMarinha" data-nomeTema="limiteAreaProtecaoMarinha" data-bs-target="#staticBackdrop">
+                                <div class="news__thumb">
+                                    <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG" class="news__image">
+                                </div>
+                                <div class="news__content">
+                                    <h3 class="roteiros__title">Limite da Área de Proteção Ambiental Marinha</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <div class="swiper-button-next slider__arrow --white --ambiental --next" tabindex="0" role="button"
+                    aria-label="Next slide">
+                    <svg viewBox="65 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M84.707 8.707a1 1 0 000-1.414L78.343.929a1 1 0 10-1.414 1.414L82.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h84V7H0v2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="swiper-button-prev slider__arrow --white --ambiental --prev" tabindex="0" role="button"
+                    aria-label="Previous slide">
+                    <svg viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M.293 7.293a1 1 0 000 1.414l6.364 6.364a1 1 0 001.414-1.414L2.414 8l5.657-5.657A1 1 0 006.657.93L.293 7.293zM85 7H1v2h84V7z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section class="roteiros">
             <div class="container">
                 <h2 class="page__subtitle --center">Consulte Mapas Com Dados Geoespacializados</h2>
+
+
+
                 <div class="roteiros__list">
                     <div class="roteiros__item">
                         <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
@@ -395,7 +657,7 @@
                     </div>
                 </div>
             </div>
-             <div class="container">
+            <div class="container">
                 <div class="roteiros__list">
                     <div class="roteiros__item">
                         <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
@@ -447,14 +709,15 @@
                 </div>
             </div>
         </section>
-        <section class="roteiros">
-           
+        <section class="roteiros"> -->
+
         </section>
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content h-100">
-                    <div class="modal-header" style="opacity:80%">
+                    <div class="modal-header" style="opacity:80%; border-bottom: none;">
                         <h1 class="modal-title fs-5" id="staticBackdropLabel"><input
                                 style="border:none; background:none; width: 500%;" disabled id="nomeTema" value=""></h1>
                         <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> !-->
@@ -463,18 +726,20 @@
                         <iframe id="iframeMapa"
                             style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #000;border-radius:15px"></iframe>
                     </div>
-                    <div class="modal-footer" style="opacity:80%">
+                    <div class="modal-footer" style="opacity:80%; border-top: none;">
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 <i class="fa fa-download"></i> Download
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" id="download" href="#">JSON</a></li>
-                                <li><a class="dropdown-item" id="imprimir" href="#" onclick="imprimir()" >PNG</a></li>
+                                <li><a class="dropdown-item" id="imprimir" href="#" onclick="imprimir()">PNG</a></li>
                             </ul>
                         </div>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-window-close" aria-hidden="true"></i> Fechar</button>
-                        
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i
+                                class="fa fa-window-close" aria-hidden="true"></i> Fechar</button>
+
                     </div>
                 </div>
             </div>
@@ -503,8 +768,8 @@
                 <div class="footer-bottom__column --small">
                     <a href="https://www.bertioga.sp.gov.br" title="Ir para página inicial" class="logo">
                         <img src="./src/imagens/logo-prefeitura-de-bertioga-black.png"
-                            alt="Prefeitura Municipal de Bertioga"
-                            title="Prefeitura Municipal de Bertioga" class="logo__img">
+                            alt="Prefeitura Municipal de Bertioga" title="Prefeitura Municipal de Bertioga"
+                            class="logo__img">
                     </a>
                 </div>
 
@@ -523,10 +788,15 @@
             </div>
         </div>
     </footer>
+
     <script type="text/javascript" src="./src/js/scripts.min.js.download"></script>
     <script src="./src/js/jquery.cookie-consent.min.js.download"></script>
+
+    <!-- <script src="./src/js/swiper-bundle.min.js.download"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.5/swiper-bundle.min.js"></script>
+
+
     <script>jQuery(document).ready(function () { jQuery("#cookieConsent").cookieConsent(); });</script>
-    <script src="./src/js/swiper-bundle.min.js.download"></script>
 
 
     <div vw="" class="enabled">
@@ -581,16 +851,58 @@
         });
 
 
-        function imprimir()
-        {
-           
+        function imprimir() {
+
             const iframe = document.getElementById("iframeMapa");
             iframe.contentWindow.manualPrint();
 
-           
 
-           
+
+
         }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.querySelectorAll(".urbanismo__slider").forEach(function (slider) {
+
+                if (slider.swiper) {
+                    slider.swiper.destroy(true, true);
+                }
+
+                new Swiper(slider, {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: ".--urbanismo.--next",
+                        prevEl: ".--urbanismo.--prev"
+                    }
+                });
+
+            });
+
+
+            document.querySelectorAll(".ambiental__slider").forEach(function (slider) {
+
+                if (slider.swiper) {
+                    slider.swiper.destroy(true, true);
+                }
+
+                new Swiper(slider, {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    loop: true,
+                    navigation: {
+                        nextEl: ".--ambiental.--next",
+                        prevEl: ".--ambiental.--prev"
+                    }
+                });
+
+            });
+
+        });
     </script>
 </body>
 
