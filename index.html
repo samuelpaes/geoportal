@@ -64,6 +64,7 @@
         crossorigin="anonymous"></script>
 
     <script src="./src/js/downloadJson.js"></script>
+    <script src="./src/js/sideBar.js"></script>
 
 
     <link rel="stylesheet" href="./src/css/styles.min.css" as="style"
@@ -124,7 +125,7 @@
 
                 <div class="d-lg-none main-menu__toogler">
                     <button class="navbar-toggler" id="openSidebar" type="button" aria-controls="sidebarMenu"
-                        aria-expanded="false" aria-label="Abrir menu de navegação">
+                        aria-expanded="false" aria-label="Abrir menu de navegação" >
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
@@ -158,7 +159,7 @@
 
                 </ul>
 
-                <a data-toggle="modal" href="https://www.bertioga.sp.gov.br/#contatoModal"
+                <a data-toggle="modal" href="https://www.bertioga.sp.gov.br/prefeitura/secretarias/planejamento-urbano"
                     class="btn --circle --center --large --blue">Contato</a>
             </div>
             <div class="sidebar__footer">
@@ -581,7 +582,7 @@
                 </div>
                 <div class="swiper-button-next slider__arrow --white --ambiental --next" tabindex="0" role="button"
                     aria-label="Next slide">
-                    <svg viewBox="65 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg viewBox="65 0 35 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M84.707 8.707a1 1 0 000-1.414L78.343.929a1 1 0 10-1.414 1.414L82.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h84V7H0v2z">
                         </path>
@@ -597,119 +598,6 @@
                 </div>
             </div>
         </section>
-
-
-        <!-- <section class="roteiros">
-            <div class="container">
-                <h2 class="page__subtitle --center">Consulte Mapas Com Dados Geoespacializados</h2>
-
-
-
-                <div class="roteiros__list">
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="zoneamento" data-nomeTema="Zoneamento, Uso e Ocupação do Solo"
-                            data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/zoneamento.png" alt="" title="42668269144_74b7a7875f_o">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Zoneamento, Uso e Ocupação de Solo</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal" data-mapa="lotes"
-                            data-nomeTema="Lotes" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/lotes.png" alt="" title="DCIM101MEDIADJI_0102.JPG">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Cadastro de Lotes</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="abairramento" data-nomeTema="Abairramento" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/abairramento.png" alt="" title="DCIM100MEDIADJI_0023.JPG">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Abairramento</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="eixo_logradouro" data-nomeTema="Eixo de Logradouro"
-                            data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/logradouros.png" alt="" title="31921269747_62bee7e879_o">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Logradouros</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="roteiros__list">
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="macrozonas" data-nomeTema="Macrozonas" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/macrozonas.png" alt="" title="42668269144_74b7a7875f_o">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Macrozonas</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="areaurbana" data-nomeTema="Área Urbana" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/areaurbana.png" alt="" title="DCIM101MEDIADJI_0102.JPG">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Área Urbana</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal"
-                            data-mapa="Hidrografia" data-nomeTema="Hidrografia" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/hidrografia.png" alt="" title="DCIM100MEDIADJI_0023.JPG">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Hidrografia</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="roteiros__item">
-                        <div class="roteiros__wrapper" class="btn btn-primary" data-bs-toggle="modal" data-mapa="zeis"
-                            data-nomeTema="Zeis" data-bs-target="#staticBackdrop">
-                            <div class="roteiros__thumb">
-                                <img src="./src/imagens/zeis.png" alt="" title="31921269747_62bee7e879_o">
-                            </div>
-                            <div class="roteiros__content">
-                                <h3 class="roteiros__title">Zeis</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="roteiros"> -->
 
         </section>
         <!-- Modal -->
@@ -744,10 +632,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
 
 
     </main>
@@ -817,7 +701,26 @@
     <veepn-lock-screen><template shadowrootmode="open">
         </template>
     </veepn-lock-screen>
+    <script>document.addEventListener("DOMContentLoaded", function () {
 
+    const sidebar = document.getElementById("sidebarMenu");
+    const openSidebar = document.getElementById("openSidebar");
+    const closeSidebar = document.getElementById("closeSidebar");
+
+    console.log(sidebar);
+    console.log(openSidebar);
+    console.log(closeSidebar);
+
+    openSidebar.addEventListener("click", function () {
+        sidebar.classList.add("--active");
+    });
+
+    closeSidebar.addEventListener("click", function () {
+        sidebar.classList.remove("--active");
+    });
+
+});</script>
+    
     <script>
 
         const modal = document.getElementById('staticBackdrop');
@@ -872,14 +775,27 @@
                 }
 
                 new Swiper(slider, {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: ".--urbanismo.--next",
-                        prevEl: ".--urbanismo.--prev"
-                    }
-                });
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    breakpoints: {
+        576: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        992: {
+            slidesPerView: 4
+        }
+    },
+
+    navigation: {
+        nextEl: ".--urbanismo.--next",
+        prevEl: ".--urbanismo.--prev"
+    }
+});
 
             });
 
@@ -891,14 +807,27 @@
                 }
 
                 new Swiper(slider, {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                    loop: true,
-                    navigation: {
-                        nextEl: ".--ambiental.--next",
-                        prevEl: ".--ambiental.--prev"
-                    }
-                });
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+
+    breakpoints: {
+        576: {
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        992: {
+            slidesPerView: 4
+        }
+    },
+
+    navigation: {
+        nextEl: ".--ambiental.--next",
+        prevEl: ".--ambiental.--prev"
+    }
+});
 
             });
 
